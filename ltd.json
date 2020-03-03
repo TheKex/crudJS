@@ -1,0 +1,27 @@
+[
+  {
+    "full_name": "Ivan Voevodin",
+    "address": "Russia, Kazan",
+    "phone": "88005553535"
+  },
+  {
+    "full_name": "Maxim Kolchurin",
+    "address": "Russia, Perm",
+    "phone": "89220001212"
+  },
+  {
+    "full_name": "Anton Belov",
+    "address": "Russia, Moscow",
+    "phone": "88003335511"
+  },
+  {
+    "full_name": "Farmacept",
+    "address": "Russia, Izevsk",
+    "phone": "88018021313"
+  },
+  {
+    "full_name": "Tboya apteka",
+    "address": "Russia",
+    "phone": "88771231212"
+  }
+]
