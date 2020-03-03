@@ -1,13 +1,10 @@
 var json;
 var array=[];
-//первоначальная загрузка
-document.addEventListener('DOMContentLoaded', function(){
-    if ( localStorage.getItem('data') != null && localStorage.getItem('data') !== undefined){
-        json = JSON.parse(localStorage.getItem('data'));
-        array = json.date;
-        initialRecords(array);
-    }
-});
+if ( localStorage.getItem('data') != null && localStorage.getItem('data') !== undefined){
+    json = JSON.parse(localStorage.getItem('data'));
+    array = json.date;
+    initialRecords(array);
+}
 
 function refresh() {
     localStorage.setItem('data', JSON.stringify({"date": array}));
